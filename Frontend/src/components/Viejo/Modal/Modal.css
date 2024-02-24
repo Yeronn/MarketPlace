@@ -1,0 +1,60 @@
+.modal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 168, 204, 0.5);
+  /* Color similar al del nav */
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  border-radius: 4px;
+  padding: 10px;
+  max-width: 600px;
+  width: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  /* Utiliza la misma fuente que el nav si es posible */
+  color: #333;
+  /* Color de texto similar al del nav */
+}
+
+.modal-content h2 {
+  margin-bottom: 10px;
+  /* Añade espacio entre el título y el contenido */
+}
+
+.modal-content p {
+  margin-bottom: 8px;
+  /* Añade espacio entre los párrafos */
+}
+
+.modal-buttons {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.modal-buttons button {
+  margin-left: 10px;
+  background-color: #00a8cc;
+  /* Color similar al del nav */
+  color: #fff;
+  /* Texto blanco */
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.modal-buttons button:hover {
+  background-color: #00768e;
+  /* Color similar al del nav al hacer hover */
+}
+

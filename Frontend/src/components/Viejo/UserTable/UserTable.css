@@ -1,0 +1,44 @@
+.user-table-container {
+  max-height: 300px;
+  overflow-y: scroll;
+  border: 1px solid #ddd;
+  /* Bordes para simular el estilo del Nav */
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.user-table th {
+  background-color: #f2f2f2;
+}
+
+.user-table th,
+.user-table td {
+  white-space: nowrap;
+  /* Evita que el texto se envuelva */
+}
+
+.user-table button {
+  background-color: #00a8cc;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.user-table button:hover {
+  background-color: #00768e;
+}
+
+.user-table button:last-child {
+  margin-right: 0;
+}

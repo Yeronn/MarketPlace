@@ -1,0 +1,75 @@
+.navbar {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  background-color: #9acc32;
+  color: #fff;
+  min-height: 51px;
+  border-bottom: 1px solid #000000b7;
+}
+
+.navbar-go-back {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 5px;
+  top: 3.5px;
+  cursor: pointer;
+}
+
+.navbar-go-back > svg{
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+}
+
+.icon-page {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.nav-search {
+  display: flex;
+  align-items: center;
+}
+
+.nav-search-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.search-btn > svg {
+  width: 100%;
+  height: 100%;
+}
+
+.search-bar {
+  font-size: 1.6rem;
+  padding: 5px 6px 7px 35px;
+  width: 216px;
+}
+
+.nav-header-menu-switch {
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+}
+
+.nav-header-menu-switch > svg {
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+}

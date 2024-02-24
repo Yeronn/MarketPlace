@@ -1,0 +1,97 @@
+.hidden-submenu {
+  display: none;
+}
+
+.user-card-options-menu {
+  padding: 12px 16px;
+  background-color: #9acc32;
+  color: #fff;
+}
+
+.user-card-options-menu-message{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-card-options-menu-message > span {
+  width: 56px;
+  height: 56px;
+}
+
+.user-card-options-menu-message svg {
+  width: 100%;
+  height: 100%;
+}
+
+.user-card-options-menu-message h4 {
+  margin-bottom: 5px;
+}
+
+.user-card-options-menu-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 5px;
+}
+
+.user-card-options-menu-btn > button {
+  width: 155px;
+  height: 40px;
+  cursor: pointer;
+  border: 2px solid;
+  border-radius: 5px;
+  color: #ffffff;
+  border-color: #006837;
+}
+
+.user-card-options-menu-btn > .btn-login {
+  background-color: #006837;
+}
+
+.user-card-options-menu-btn > .btn-create-account {
+  background-color: #ffffff;
+  color: #006837;
+}
+
+.nav-submenu-options {
+  padding: 16px 0;
+  width: 500px;
+  background-color: #e6e6e6;
+  z-index: 4;
+}
+
+.submenu-option-card {
+  display: flex;
+  justify-content: start;
+  padding: 12px 20px 12px 26px;
+  cursor: pointer;
+}
+
+.submenu-option-card:hover {
+  background-color: #f7f7f7;
+  color: #006837;
+}
+
+.submenu-option-card:hover svg {
+  stroke: #006837;
+}
+
+.submenu-option-card > span {
+  width: 20px;
+  height: 20px;
+  margin-right: 18px;
+}
+
+.submenu-option-card svg {
+  width: 100%;
+  height: 100%;
+}
+
+.categories-title {
+  display: flex;
+  justify-content: start;
+  padding: 12px 20px 12px 26px;
+}
+
+/* @media (min-width) */

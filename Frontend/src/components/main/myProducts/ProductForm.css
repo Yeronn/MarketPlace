@@ -1,0 +1,56 @@
+.create-product {
+  font-size: 1.6rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+
+.create-product > h1{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.create-product--form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  gap: 20px;
+}
+
+.create-product--label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.create-product--label > span {
+  text-align: center;
+  flex: 1;
+  width: 130px;
+  box-sizing: border-box;
+}
+
+.create-product--label > input, select {
+  flex: 1;
+  padding: 5px;
+}
+
+.create-product--btn-container {
+  display: flex;
+  gap: 20px;
+}
+
+.create-product--btn-container > button {
+  font-size: 1.6rem;
+  font-weight: 600;
+  width: 150px;
+  padding: 10px;
+  color: #ffffff;
+  background-color: #006837;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  cursor: pointer;
+}

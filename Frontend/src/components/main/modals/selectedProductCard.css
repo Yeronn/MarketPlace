@@ -1,0 +1,130 @@
+.selected-product-card{
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  min-width: 320px;
+  min-height: 600px;
+  padding: 20px;
+  gap: 7px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+  z-index: 2;
+}
+
+.selected-product-card--image-container {
+  text-align: center;
+  align-self: center;
+  padding: 5px 5px 10px 0;
+  min-height: 300px;
+}
+
+.selected-product-card--image-container > img {
+  width: 100%;
+  height: 100%;
+}
+
+.selected-product-card--name {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.selected-product-card--price {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.selected-product-card--seller{
+  font-size: 1.4rem;
+}
+
+.selected-product-card--description-title {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.selected-product-card--description {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.selected-product-card--form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.selected-product-card--form-container > label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.selected-product-card--form-container > label > span {
+  text-align: center;
+  flex: 1;
+  width: 130px;
+  box-sizing: border-box;
+}
+
+.selected-product-card--form-container > label > input {
+  flex: 1;
+  padding: 5px;
+}
+
+.selected-product-card--form-container > button {
+  font-size: 1.6rem;
+  font-weight: 600;
+  width: 150px;
+  height: 36px;
+  color: #fff;
+  background-color: #006837;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.selected-product-card > hr {
+  margin: 4px 0;
+}
+
+.selected-product-card--btn-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.selected-product-card--btn-container > button {
+  font-size: 1.6rem;
+  font-weight: 600;
+  width: 150px;
+  height: 36px;
+  color: #fff;
+  background-color: #006837;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (min-width: 850px) {
+  .selected-product-card {
+    max-width:423px;
+    padding: 30px;
+    height: auto;
+  }
+}
+
+@media (min-width: 1020px) {
+  .selected-product-card {
+    max-width:450px;
+    max-height: 730px;
+    padding: 30px;
+    padding-bottom: 20px;
+    height: auto;
+  }
+}

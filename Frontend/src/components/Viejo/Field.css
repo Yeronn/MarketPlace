@@ -1,0 +1,33 @@
+.form-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-span {
+  flex: 1;
+  margin-right: 10px;
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-span > svg {
+  height: 100%;
+  width: auto;
+  margin-top: auto;
+}
+
+.form-input {
+  flex: 2;
+  font-size: 2rem;
+  padding: 3px 0;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

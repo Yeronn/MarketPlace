@@ -1,0 +1,190 @@
+.create-account { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  gap: 20px;
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.message-container-image {
+  width: 200px;
+  height: 240px;
+}
+
+.message-container-image > img {
+  width: 100%;
+  height: 100%;
+}
+
+.message-container--title {
+  font-weight: 600;
+  text-align: center;
+  margin: 5px 0 0 0;
+}
+
+.message-container--caption {
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.create-account--btn {
+  align-self: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  height: 48px;
+  width: 320px;
+  color: #fff;
+  background-color: #006837;
+  cursor: pointer;
+}
+
+.create-account > span {
+  align-self: center;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #006837;
+  cursor: pointer;
+}
+
+
+.create-account-requirements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60.8px 20px 0 20px;
+  gap: 30px;
+}
+
+.fade-background {
+  transition: filter 0.5s ease-in-out;
+  filter: blur(1px) brightness(0.7);
+  pointer-events: none;
+}
+
+.create-account-requirements > h1 { 
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.create-account-requirements--container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 670px;
+}
+
+.requirement-card {
+  display: flex;
+  align-items: center;
+  width: 320px;
+  height: 109px;
+  padding: 16px;
+  gap: 20px;
+}
+
+.requirement-card--image-container {
+  height: 38px;
+  width: 38px;
+}
+
+.requirement-card--image-container svg{
+  width: 38px;
+  height: 38px;
+}
+
+.requirement-card--title {
+  font-weight: 400;
+}
+
+.requirement-card--text {
+  font-size: 1.4rem;
+  margin-top: 8px;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.requirement-card--btn {
+  font-weight: 600;
+  width: 81.05px;
+  height: 32px;
+  padding: 0 12px;
+  color: #fff;
+  background-color: #006837;
+  border: 1px solid;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card-selected {
+  box-shadow: rgb(0, 0, 0, 0.1) 0px 8px 16px 0px;
+}
+
+
+.modal-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  padding: 25px;
+  transform: translate(-50%, -50%);
+  min-width: 320px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.close-modal svg {
+  width: 20px;
+  height: 20px;
+}
+
+.close-modal svg:hover {
+  stroke: red;
+}
+
+.modal-assign-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+}
+
+.modal-assign-data > label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.modal-assign-data input {
+  width: 200px;
+  height: 32px;
+  padding: 0 12px;
+  margin-top: 15px;
+}
+
+.requirement-modal--btn {
+  font-weight: 600;
+  width: 100px;
+  height: 32px;
+  padding: 0 12px;
+  color: #fff;
+  background-color: #006837;
+  border: 1px solid;
+  border-radius: 5px;
+  cursor: pointer;
+}
